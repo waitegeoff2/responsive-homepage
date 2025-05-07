@@ -1,6 +1,15 @@
 * {
 margin: 0;
 padding: 0;
+font-size: 1.2rem;
+}
+
+body {
+    background-color: rgb(219, 225, 227);
+}
+
+h1 {
+    font-size: 1.5rem;
 }
 
 /* DESKTOP SIZE */
@@ -11,27 +20,33 @@ padding: 0;
     display: flex;
 }
 
-.header-container {
+.header-image-container {
     position: relative;
 }
 
-.header-image-name {
-    position: absolute;
-    transform: translate(50%, -115%);
-    color: white;
-    font-size: 30px;
-    text-shadow: 1px 1px 2px black;
+    .bio-pic-large {
+        height: 350px;
+        width: auto;
+    }
+
+    .header-image-name {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -115%);
+        color: white;
+        font-size: 2rem;
+        text-shadow: 1px 1px 2px black;
+        background-color: transparent;
+    }
+
+.header-info-box {
+    background-color: white;
 }
 
-.header-social {
-    height: 25px;
-    width: auto;
-}
-
-.bio-pic-large {
-    height: 250px;
-    width: auto;
-}
+    .header-social {
+        height: 25px;
+        width: auto;
+    }
 
 /* Portfolio section */
 
