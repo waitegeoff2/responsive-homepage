@@ -3,6 +3,10 @@ margin: 0;
 padding: 0;
 }
 
+/* DESKTOP SIZE */
+
+/* Header section */
+
 .header-social {
     height: 25px;
     width: auto;
@@ -11,4 +15,51 @@ padding: 0;
 .bio-pic-large {
     height: 250px;
     width: auto;
+}
+
+/* Portfolio section */
+
+.project-social {
+    height: 17px;
+    width: auto;
+}
+
+/* Contact section */
+
+.contact-social {
+    height: 22px;
+    width: auto;  
+}
+
+.contact-picture {
+    height: 200px;
+    width: auto;
+}
+
+/* TABLET MEDIA (max width: ) */
+@media (max-width: 1000px) {
+
+    /* contact section */
+    .contact-picture {
+        /* ADJUST */
+        height: 200px;
+        width: 100px;
+        object-fit: cover; 
+    }
+}
+
+/* MOBILE MEDIA (max width: ) */
+
+@media (max-width: 500px) {
+    /* code in here */
+
+
+    /* contact section */
+    .contact-picture {
+        /* ADJUST */
+        height: 200px;
+        width: 100px;
+        object-fit: cover; 
+    }
+
 }
