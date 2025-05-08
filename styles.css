@@ -14,6 +14,10 @@ h1 {
     font-size: 1.6rem;
 }
 
+h2 {
+    font-size: 1.35rem;
+}
+
 /* DESKTOP SIZE */
 
 /* Header section */
@@ -68,6 +72,46 @@ h1 {
 .portfolio-section {
     display: flex;
     flex-direction: column;
+    margin-left: 95px;
+    margin-right: 95px;
+    gap: 20px;
+}
+
+.portfolio-projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 85px;
+}
+
+.portfolio-project-box {
+    background-color: white;
+    box-shadow: 5px 5px 5px grey;
+    width: 380px;
+}
+
+.project-screenshot {
+    display: flex;
+    height: 220px;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    padding: 15px;
+    gap: 5px;
+}
+
+.project-topline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-summary {
+    font-size: 1rem;
 }
 
 .project-social {
