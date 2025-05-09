@@ -82,7 +82,7 @@ h2 {
     left: 50%;
     transform: translate(-50%, -130%);
     color: white;
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     text-shadow: 1px 1px 2px black;
     background-color: transparent;
 }
@@ -192,13 +192,22 @@ h2 {
 
     .header-image-container {
         float: left;
+        margin-right: 10px;
+        margin-top: -20px;
     }
 
     .header-info-box {
-        background-color: red;
-        margin-left: 1px;
+        display: block;
+        
+        background-color: white;
+        margin-top: 30px;
+        margin-left: 40px;
         /* transform: translateX(-100px); */
         
+    }
+
+    .description {
+        font-size: 1.2rem;
     }
 
     /* contact section */
@@ -240,8 +249,6 @@ h2 {
         align-items: center;
         padding: 5px;
     }
-
-
 
     .contact-picture {
         /* ADJUST */
