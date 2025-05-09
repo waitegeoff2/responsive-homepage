@@ -96,15 +96,16 @@ h2 {
 }
 
 .portfolio-projects-container {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 350px), 1fr));
+  gap: 50px;
     gap: 85px;
 }
 
 .portfolio-project-box {
     background-color: white;
     box-shadow: 5px 5px 5px 5px grey;
-    width: 380px;
+    width: 100%;
 }
 
 .project-screenshot {
@@ -195,7 +196,7 @@ h2 {
     }
 
     .portfolio-project-box {
-        width: 350px;
+        width: 100%;
     }
 
     /* contact section */
