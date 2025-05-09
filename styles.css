@@ -167,6 +167,7 @@ h2 {
     justify-content: space-between;
     background-color: rgb(181, 128, 181);
     padding: 30px 300px 30px 300px;
+    gap: 10px;
 }
 
 .contact-text {
@@ -210,11 +211,22 @@ h2 {
         font-size: 1.2rem;
     }
 
+    .portfolio-project-box {
+        width: 300px;
+    }
+
     /* contact section */
+
+    .contact-section {
+        padding: 100px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
     .contact-picture {
         /* ADJUST */
         height: 400px;
-        width: 200px;
+        width: 300px;
         object-fit: cover; 
     }
 }
@@ -242,6 +254,10 @@ h2 {
         gap: 40px;
     }
 
+    .portfolio-project-box {
+        width: 416px;
+    }
+
     /* contact section */
     .contact-section {
         display: flex;
@@ -252,8 +268,8 @@ h2 {
 
     .contact-picture {
         /* ADJUST */
-        height: 200px;
-        width: 100px;
+        height: 400px;
+        width: 400px;
         object-fit: cover; 
     }
 
