@@ -97,8 +97,8 @@ h2 {
 
 .portfolio-projects-container {
     display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 350px), 1fr));
-  gap: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 350px), 1fr));
+    gap: 50px;
     gap: 85px;
 }
 
@@ -246,10 +246,6 @@ h2 {
 
     .portfolio-projects-container {
         gap: 40px;
-    }
-
-    .portfolio-project-box {
-        width: 416px;
     }
 
     /* contact section */
